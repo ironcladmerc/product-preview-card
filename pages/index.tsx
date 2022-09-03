@@ -10,7 +10,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon-32x32.png" />
             </Head>
             {/* Main Component */}
-            <div className="container flex flex-col w-2/3 bg-white rounded-xl md:flex-row md:w-1/2 md:h-128">
+            <main className="container flex flex-col w-2/3 bg-white rounded-xl md:flex-row md:w-1/2 md:h-128">
                 {/* Mobile Image */}
                 <img
                     className="md:hidden rounded-t-xl"
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </main>
         </div>
     )
 }
